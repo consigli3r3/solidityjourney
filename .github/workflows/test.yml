@@ -36,3 +36,6 @@ jobs:
 
       - name: Run Forge tests
         run: forge test -vvv
+      
+      - name: Install Foundry dependencies
+        run: forge install
